@@ -5,4 +5,13 @@
       <module fileurl="file://$PROJECT_DIR$/KonyvtarAsztali.iml" filepath="$PROJECT_DIR$/KonyvtarAsztali.iml" />
     </modules>
   </component>
+
+  <dependencies>
+  <dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>8.0.31</version>
+  </dependency>
+  </dependencies>
+
 </project>

@@ -89,6 +89,7 @@ public class Statisztika {
 
     public void whoIsTheAuthor() {
         Scanner sc = new Scanner(System.in);
+        System.out.print("Adjon meg egy könyv címet: ");
         String book = sc.nextLine().trim();
         String author = "";
         for (Konyv konyv : konyvek) {
@@ -96,6 +97,7 @@ public class Statisztika {
                 author = konyv.getAuthor();
             }
         }
+        System.out.println("\n");
         if (author.isEmpty()) {
             System.out.println("Nincs ilyen könyv");
             return;

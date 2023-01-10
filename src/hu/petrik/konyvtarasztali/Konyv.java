@@ -35,4 +35,8 @@ public class Konyv {
         this.page_count = page_count;
     }
 
+    @Override
+    public String toString() {
+        return String.format("\tSzerző: %s\n\tCím: %s\n\tKiadás éve: %d\n\tOldalszám: %d\n", this.author, this.title, this.publish_year, this.page_count);
+    }
 }
